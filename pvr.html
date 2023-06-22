@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    .navtop{
+        display: flex;
+        background-color:rgb(37, 37, 37) ;
+        height: 70px;
+        align-items: top;     
+        position: sticky;  
+        top: 0px;
+    }
+    .navbot{
+        display: flex;
+        background-color: rgb(37, 37, 37);
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        position: sticky; 
+        top: 0px;  
+
+    }
+    .logo img{
+        width: 70px;
+        height: 68px;
+        margin-left: 15px;
+    }
+    *{
+        margin: 0px;
+    }
+    .input1 input{
+        width: 1200px;
+        height: 40px;
+        background-color: rgb(54, 54, 54);
+        border: 0px;
+        border-radius: 5px;
+        margin-top: 16px;
+        margin-left: 120px;
+    }
+    .a1::placeholder{
+        color: rgb(112, 112, 112);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+    }
+    .input2 select{
+        width: 250px;
+        height: 40px;
+        background-color: rgb(54, 54, 54);
+        border: 0px;
+        border-radius: 5px;
+        margin-top: 16px;
+        margin-left:30px ;
+        color: rgb(247, 242, 242);
+        font-size: 15px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .b1 img{
+        margin-top: 16px;
+        margin-left: 170px;
+    }
+    .navbot a{
+        text-decoration: none;
+    }
+    .a2 a{
+        color: aliceblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .a3 a{
+        color: rgb(119, 119, 119);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .b1 sup{
+        background-color: rgb(255, 219, 88);
+        color: rgb(119, 118, 118);
+        border: 0px;
+        border-radius: 4px;
+        width: 6px;
+    }
+    .img{
+        background-image: url(https://originserver-static1-uat.pvrcinemas.com/newweb/movies/big/1460x600/HO00019239.jpg);
+        height: 350px;
+        background-repeat: no-repeat;
+        margin-left: 350px;
+        color: aliceblue;
+    }
+    .img h3{
+      background-color: rgb(255, 219, 88);
+      width: 130px;
+      color: black;
+      border-radius: 10px;
+      padding-left: 0px;
+      margin-top: 80px;
+      font-family:'Courier New', Courier, monospace ;
+
+    }
+    .img h1{
+        margin-top: 200px;
+        font-family:'Courier New', Courier, monospace;
+    }
+    .img h4{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .navcon{
+        display: flex;
+        background-color: rgb(37, 37, 37);
+        height: 60px;
+        width: 1150px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .desc
+    {
+        display: flex;
+        align-items: center;
+        height: 30px;
+        justify-content: space-around;
+        width: 1150px;
+        margin-top: 10px;
+    }
+    .desc select{
+        background-color: black;
+        color: aliceblue;
+        border: 0px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
+    .desc date{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .desc2
+    {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        justify-content: space-around;
+        width: 1150px;
+        margin-top: 10px;
+       
+    }
+    .desc3{
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+    .desc3 input{
+        background-color: rgb(54, 54, 54);
+        border: 0px;
+        border-radius: 3px;
+        width: 550px;
+        height: 35px;
+    }
+    .h1::placeholder{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:  rgb(112, 112, 112);
+    }
+    .a5{
+        margin-left: 200px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(8, 131, 8);
+    }
+    .a6
+    {
+        margin-left: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(177, 177, 30);
+
+    }
+    .a7{
+        margin-left: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: orange;
+
+    }
+    .a8{
+        margin-left: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkgray;
+
+    }
+    .desc4{
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        height: 100px;
+        align-items: center;
+    }
+    .desc4 h4{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+    }
+    .j11::before{
+        content: url(../arrow.png);
+    }
+    .desc5{
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        height: 100px;
+        align-items: center;
+    }
+    .desc5 h4{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+    }
+    .desc6{
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        height: 100px;
+        align-items: center;
+    }
+    .desc6 h4{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+    }
+    .desc7{
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        height: 100px;
+        align-items: center;
+    }
+    .desc7 h4{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+    }
+    .desc8{
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        height: 100px;
+        align-items: center;
+    }
+    .desc8 h4{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+    }
+    .desc9{
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        height: 100px;
+        align-items: center;
+    }
+    .desc9 h4{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+    }
+    .desc10{
+        display: flex;
+        justify-content: space-between;
+        width: 1150px;
+        height: 100px;
+        align-items: center;
+    }
+    .desc10 h4{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+    }
+  </style>
+   
+</head>
+<body bgcolor="black">
+    <div class="pvr">
+        <div class="navbar1">
+           <div class="navtop">
+            <div class="logo">
+                <img src="https://www.pvrcinemas.com/assets/images/new_logo.png" alt="">
+            </div>
+            <div class="input1">
+                <input type="text" class="a1" placeholder="       Search movies or theatres...">
+            </div>
+            <div class="input2">
+                <select name="" id="">
+                    <option value=""> &nbsp; A &nbsp; Delhi-NCR</option>
+                    <option value="">&nbsp; A &nbsp; Bangalore-NCR</option>
+                    <option value="">&nbsp; A &nbsp; Mysore-NCR</option>
+                    <option value="">&nbsp;A &nbsp;Ahmedabad-NCR</option>
+                </select>
+            </div>
+            <div class="b1">
+                <img src="../image-removebg-preview11.png" alt="">
+            </div>
+           </div>
+           <div class="navbot">
+               <div class="a2">
+                <a href="" style="margin-left:180px ;">ICE</a>
+                <a href="">IMAX</a>
+                <a href="">4DX</a>
+                <a href="">Playhouse</a>
+                <a href="">GOLD</a>
+                <a href="">LUXE</a>
+                <a href="">P[XL]</a>
+                <a href="">ONYX</a>
+                <a href="">Drive-in</a>
+                <a href="">Director's Cut</a>
+                <a href="">Oscar Pass</a>
+               </div>
+               <div class="a3">
+                <a href="">Cinemas</a>
+                <a href="">Offers</a>
+                <a href="">Advertise</a>
+                <a href="">Gift Cards</a>
+                <select name="" id="" style="background-color: rgb(37, 37, 37); border: 0px; color: rgb(119, 118, 118); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 12px;">
+                    <option value="" >Movie On Demand</option>
+                </select>
+                <a href="" >Movie Library</a>
+                <a href=""  style="margin-right: 200px; color: rgb(255, 219, 88);" class="b1">Movie Calender <sup><sup>new</sup></sup></a>
+               </div>
+
+           </div>
+        </div>
+        <div class="content">
+            <div class="img">
+                <h3>New Release</h3>
+                <div class="c2">
+                    <div class="C11">
+                        <h1>JOHN WICK: CHAPTER 4(A)</h1>
+                        <h4>(A) . 2h51m . Thursday, March 23, 2023. ENGLISH . ACTION</h4>
+                        <h4>Keanu Reeves, Donnie Yen, Bill Skargard, Laurence Fishburne</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="navcon">
+                    <div class="n1" style="color: rgb(255, 219, 88); margin-right: 50px;">SHOWTIMES</div>
+                    <div class="n2">SYNOPSIS</div>
+                </div> 
+                <div class="h1">
+                    <hr width="1150px" color="grey">
+                </div>
+                <div class="desc">
+                    <div class="date">
+                        <h4 style="color:aliceblue; font-family: 'Courier New', Courier, monospace; font-size: 20px;">< SUN ></h4>
+                    </div>
+                  <div class="format">
+                    <select name="" id="">
+                        <option value="">MOVIE FORMAT</option>
+                    </select>
+                  </div> 
+                  <div class="cinema">
+                    <select name="" id="">
+                        <option value="">CINEMA FORMAT</option>
+                    </select>
+                  </div> 
+                  <div class="range">
+                    <select name="" id="">
+                        <option value="">PRICE RANGE</option>
+                    </select>
+                  </div>
+                  <div class="times">
+                    <select name="" id="">
+                        <option value="">SHOWTIMES</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="desc2" >
+                    <div class="d1"style="font-family:'Courier New', Courier, monospace; ">24</div>
+                    <div class="mf1" style="font-family:'Courier New', Courier, monospace;">ALL</div>
+                    <div class="cf1"style="font-family:'Courier New', Courier, monospace;">ALL</div>
+                    <div class="pr1"style="font-family:'Courier New', Courier, monospace;">$ 180-1400</div>
+                    <div class="st1"style="font-family:'Courier New', Courier, monospace;">2:00-24:00</div>
+                </div>
+                <div class="h1">
+                    <hr width="1150px" color="grey">
+                </div>
+                <div class="desc3">
+                    <div class="input3">
+                        <input type="text" class="h1" placeholder="  &nbsp; SEARCH CINEMAS....">
+                    </div>
+                    <div class="a5">AVAILABLE</div>
+                    <div class="a6">FILLING FAST</div>
+                    <div class="a7">SOLD OUT</div>
+                    <div class="a8">LAPSED</div>
+                </div>
+                <div class="h1">
+                    <hr width="1150px" color="grey">
+                </div>
+                <div class="desc4">
+                    <div class="j1"><h4>PVR Director's Cut Forum REX WALK Bengaluru</h4></div>
+                    <div class="j11">2.53 km</div>
+                </div>
+                <div class="h1">
+                    <hr width="1150px" color="grey">
+                </div>
+                <div class="desc5">
+                    <div class="k1"><h4>PVR NEXUS (Formerly Forum),Koramangala</h4></div>
+                    <div class="j11">2.75 km</div>
+                </div>
+                <div class="h1">
+                    <hr width="1150px" color="grey">
+                </div>
+                <div class="desc6">
+                    <div class="k1"><h4>PVR VEGA Bengaluru</h4></div>
+                    <div class="j11">4.64 km</div>
+                </div>
+                <div class="h1">
+                    <hr width="1150px" color="grey">
+                </div>
+                <div class="desc7">
+                    <div class="k1"><h4>PVR The Cinemas GT World Bengaluru</h4></div>
+                    <div class="j11">5.18 km</div>
+                </div>
+                <div class="h1">
+                    <hr width="1150px" color="grey">
+                </div>
+                <div class="desc8">
+                    <div class="k1"><h4>PVR Soul Spirit Bengaluru</h4></div>
+                    <div class="j11">9.26 km</div>
+                </div>
+                <div class="h1">
+                    <hr width="1150px" color="grey">
+                </div>
+                <div class="desc10">
+                    <div class="k1"><h4>PVR Rion UPTOWN,OLD Madras Road, Bengaluru</h4></div>
+                    <div class="j11">21.57 km</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+.header img{
+    width: 60px;
+    height: 60px;
+    margin-left: 60px;
+}
+.d1{
+    background-color: #a4c9d8;
+    
+}
+*{
+    margin: 0px 0px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.link{
+    margin-left: 1300px;
+}
+.link a{
+    text-decoration: none;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    font-weight: bolder;
+    color: black;
+    margin-left:15px ;
+}
+.header  h1{
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: 25px;
+}
+.header  h3{
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec1{
+    width: 600px;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    margin-top: 200px;
+}
+.sec1 a{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    mr
+}
+.sec1 h4{
+    margin-top: 0px;
+    transform: translateY(0px);
+}
+.sec2 img{
+    margin-top: 150px;
+    margin-right: 250px;
+    transform:rotatez(-5deg);
+}
+.sec3{
+    text-align: right;
+    margin-right: 150px;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 1550px;
+}
+.sec3 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.head a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1500px;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+
+}
+.head img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.head  h2{
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    margin-left: 50px;
+}
+.head2{
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+.class1 {
+    width: 400px;
+}
+.class2 {
+    width: 450px;
+}
+.class3 {
+    width: 450px;
+}
+.class4 {
+    width: 400px;
+}
+.class1 img{
+    width: 400px;
+    height: 400px;
+}
+.class2 img{
+    width: 450px;
+    height: 300px;
+}
+.class3 img{
+    width: 450px;
+    height: 300px;
+}
+.class4 img{
+    width: 400px;
+    height: 400px;
+}
+.e1{
+    background-color: black;
+    color: white;
+    width: 80px;
+    font-size: 15px;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    display: inline;
+}
+.h2{
+    background-color: rgb(163, 243, 156);
+    color: black;
+    width: 80px;
+    font-size: 15px;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    display: inline;
+}
+.h3{
+    background-color: rgb(163, 243, 156);
+    color: black;
+    width: 80px;
+    font-size: 15px;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    display: inline;
+}
+.h4{
+    background-color: rgb(163, 243, 156);
+    color: black;
+    width: 80px;
+    font-size: 15px;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    display: inline;
+}
+.class1 a{
+    text-decoration: none;
+    color: black;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+
+}
+.class2 a{
+    text-decoration: none;
+    color: black;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+
+}
+.class3 a{
+    text-decoration: none;
+    color: black;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+
+}
+.class4 a{
+    text-decoration: none;
+    color: black;
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+
+}
+.class1 p{
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: 13px;
+}
+.class2 p{
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: 13px;
+}
+.class3 p{
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: 13px;
+}
+.class4 p{
+    font-family: "CircularSpotifyText",-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: 13px;
+}
